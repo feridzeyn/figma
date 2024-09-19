@@ -1,41 +1,271 @@
-@media only screen and (max-width:992px) {}
-
-@media only screen and (max-width:768px) {}
-
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:992px) {
     .container {
-        max-width: 335px;
-        margin: auto;
+        max-width: 960px;
     }
+}
 
+@media only screen and (max-width:768px) {
+    .container {
+        max-width: 750px;
+        padding: 0 12px;
+    }
+    header nav {
+        justify-content: space-around;
+        padding: 28px 0;
+    }
 
     header nav img {
         width: 120px;
-        height: 16px;
-        font-size: 16px;
-
+        height: 18px;
     }
 
-    header ul,
-    hr {
+    header .menu-ul,
+    header .menu hr {
         display: none;
     }
 
-    header .icon {
+    header .menu .icon {
         display: block;
-        margin-right: 65px;
     }
 
+    header .user-name .btn-icon {
+        display: block;
+        margin-left: 5px;
+        margin-right: 20px;
+        width: 12px;
+        height: 6px;
+    }
+
+    .teaching {
+        padding-top: 80px;
+    }
+
+    .teaching .head {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .teaching .head .teaching-head h1 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 auto 20px;
+    }
+
+    .teaching .head .teaching-head h2 {
+        width: 450px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 110%;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .teaching .head .teaching-head p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 27px;
+    }
+
+    .teaching .teaching-head .btn-platform {
+        width: 152px;
+        height: 41px;
+    margin: 0 auto 38px auto;
+    }
+
+    .teaching .teaching-head .btn-platform a {
+        font-size: 15px;
+    }
+
+    .teaching .teaching-head .statistics .img_600 .frame1 {
+        width: 150px;
+        height: 55px;
+    }
+
+    .teaching .statistics .frst-img p {
+        margin-left: 20px;
+    }
+
+    .teaching .statistics p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+    .teaching .statistics .miniGames_image .frame2 {
+        width: 80px;
+        height: 50px;
+    }
+
+    .teaching .teaching-head .statistics hr {
+        width: 0px;
+        height: 32px;
+      margin-top: 18px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        
+    }
+
+    .teaching .head .teaching-img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .teaching .head .teaching-img img {
+        width: 400px;
+        height: 400px;
+    }
+    .tips .learn {
+        flex-direction: column;
+        text-align: center;
+        padding: 55px 0 0 0;
+    }
+    .tips .learn .learn-img img {
+        width: 430px;
+        height: 380px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .tips .learn .learn-head h1 {
+        width: 400px;
+        height: 70px;
+        font-size: 38px;
+        font-weight: 600;
+        margin: 0 auto 25px ;
+    }
+    .tips .learn .learn-head p {
+        width: 397px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 120%;
+        margin: auto;
+    }
+    .increase .increase-head {
+        flex-direction: column;
+    }
+    .increase .increase-head .increase-head-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 70px;
+        margin: auto;
+    }
+    .increase .increase-head .increase-head-text h1 {
+        width: 100%;
+        height: 75px;
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .increase .increase-head .increase-head-text p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 120%;
+        margin: 0;
+    }
+    .increase .increase-head .increase-head-text .increase-btn button {
+        width: 150px;
+        height: 40px;
+ 
+    }
+    .increase .increase-head .increase-head-text .increase-btn a {
+        font-size: 15px;
+    }
+    .increase .increase-head .increase-head-img{
+        margin: auto;
+        padding-top: 30px;
+    }
+    .increase .increase-head .increase-head-img img{
+        width: 400px;
+    }
+    .check .check-card {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    .check .check-card .children-img {
+        padding: 70px 0 0 0;
+        margin: auto;
+    }
+    .check .check-card .children-img img{
+       width: 500px;
+       margin-bottom: 25px;
+    }
+    .check .check-card .check-card-body h1 {
+        font-weight: 600;
+        font-size: 38px;
+        padding-top: 0;
+    }
+    .check .check-card .check-card-body p {
+        font-size: 16px;
+        line-height: 120%;
+        color: #757575;
+        margin: 25px 0;
+    }
+    .check .check-card .check-card-body {
+        padding-bottom: 70px;
+    }
+    .check .check-card .check-card-body button {
+        width: 150px;
+        height: 40px;
+    }
+    .check .check-card .check-card-body button a {
+        font-size: 15px;
+    }
+    footer .bar {
+        padding-top: 30px;
+    }
+    footer nav ul {
+   display: none;
+    }
+    footer nav .dropdown{
+        display: block;
+    }
+    footer .foot {
+      flex-direction: column;
+      align-items: center;
+        padding-bottom: 30px;
+    }
+    footer .foot .icons svg {
+        margin: 15px auto;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .container {
+        max-width: 400px;
+        margin: auto;
+    }
+    header nav {
+        padding: 8px 0;
+    }
+    header nav img {
+        width: 90px;
+        height: 15px;
+    }
+    header .menu .icon {
+        margin-right: 65px;
+    }
+    header .user-name .a {
+        width: 32px;
+        height: 30px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+    }
+    header .user-name a .alex {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 8px;
+    }
     header .sign .btn-logout {
         display: none;
     }
-
-    header .icon {
-        display: block;
-
-
-    }
-
     header .user-name .btn-icon {
         display: block;
         margin-left: 7px;
@@ -43,7 +273,6 @@
         width: 6.92px;
         height: 3.46px;
     }
-
     header .user-name .a {
         margin-left: 40px;
         font-size: 16px;
@@ -52,200 +281,216 @@
         background: #C3DCE3;
         border-radius: 100px;
     }
-
     header .user-name a .alex {
         margin-left: 4px;
         font-size: 12px;
     }
-
-    .first {
-        padding-top: 40px;
-
+    header .navAnimation {
+        top: 50px;
     }
-
-    .first .head {
-
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-
+    header .navAnimation .animation-ul li {
+        padding-top: 10px;
+       margin-bottom: 30px;
     }
-
-    .first .head .head-frst h1 {
-        width: 335px;
-        height: 12px;
-        font-size: 12px;
-        margin-bottom: 8px;
-
-
+    header .navAnimation .animation-ul li a {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
     }
-
-    .first .head .head-frst h2 {
-        width: 335px;
-        height: 96px;
-        font-size: 32px;
-
-
+    header .navAnimation .animation-ul i {
+        font-size: 20px;
+        top: 3px;
+        right: 3px;
     }
-
-    .first .head .head-frst p {
-        font-size: 12px;
-        width: 335px;
+    .teaching {
+        padding-top: 20px;
+    }
+    .teaching .head .teaching-head h1 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 14px;
+        margin: 10px auto;
+    }
+    .teaching .head .teaching-head h2 {
+        width: 100%;
         height: 20px;
-        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 10px auto;
     }
-
-    .first .head-frst .btn-platform {
-        width: 146px;
-        height: 38px;
+    .teaching .head .teaching-head p {
+        font-size: 12px;
+        font-weight: 400;
+        width: 100%;
+        height: 20px;
+        margin: 0 auto 12px;
+       
+    }
+    .teaching .teaching-head .btn-platform {
+        width: 90px;
+        height: 35px;
         margin: auto;
     }
-
-    .first .head-frst .btn-platform a {
-        font-size: 14px;
+    .teaching .teaching-head .btn-platform a {
+        font-size: 12px;
+        font-weight: 400;
     }
-
-    .first .head-frst nav {
-        justify-content: space-between;
-        width: 335px;
-        margin-top: 20px;
+    .teaching .teaching-head .statistics {
+        flex-direction: column;
+        margin-top: 15px;
+        align-items: center;
+      
     }
-
-    .first .head-frst nav .frst-img img {
+    .teaching .teaching-head .statistics .img_600 {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .teaching .teaching-head .statistics .img_600 .frame1 {
         width: 79px;
         height: 20px;
-
-
-
+      
     }
-
-    .first .head-frst nav .first-img p {
+    .teaching .teaching-head .statistics .img_600 p {
         width: 112px;
         height: 22px;
         font-size: 12px;
         text-align: left;
-
+        margin: 0;
     }
-
-    .first .head-frst nav .scnd-img img {
+   
+    .teaching .teaching-head .statistics .miniGames_image .frame2 {
         width: 43px;
         height: 20px;
-
+    }
+    .teaching .teaching-head .statistics hr {
+      display: none;
     }
 
-    .first .head .head-scnd img {
+    .teaching .head .teaching-img img {
         width: 278px;
         height: 236px;
+        margin-top: 15px;
 
     }
-
-    .second .iki {
-        flex-direction: column;
-        text-align: center;
-
+    .tips .learn{
+        padding: 20px 0;
     }
-
-    .second .iki .iki-img img {
-        width: 335px;
-        height: 230px;
-        margin-right: 20px;
+    .tips .learn .learn-img img {
+        width: 278px;
+        height: 210px;
+        margin: 10 auto;
     }
-
-    .second .iki .iki-basliq h1 {
-        width: 335px;
-        height: 48px;
-        font-size: 24px;
-        margin: auto;
+    .tips .learn .learn-head h1 {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 400;
         margin-bottom: 8px;
-
     }
 
-    .second .iki .iki-basliq p {
+    .tips .learn .learn-head p {
         width: 335px;
         height: 20px;
-        margin-bottom: 20px;
-        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .tips .learn .learn-head .learn-body-img .sprint {
+       width: 80px;
+    }
+    .tips .learn .learn-head .learn-body-img .audio-call {
+        width: 100px;
+     }
+     .increase .increase-head .increase-head-text {
+        padding-top: 20px;
+    }
+    .increase .increase-head .increase-head-text h1 {
+        font-size: 20px;
+        width: 100%;
+        height: 20px;
+        font-weight: 400;
+    }
+    .increase .increase-head .increase-head-text p {
+        width: 100%;
+        height: 20px;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 8px 0 8px 0;
+    }
+    .increase .increase-head .increase-head-text .increase-btn button {
+        width: 90px;
+        height: 35px;
+        margin-bottom: 0;
     }
 
-    .third .third-head {
+    .increase .increase-head .increase-head-text .increase-btn a {
+        width: 100%;
+        height: 0;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .increase .increase-head .increase-head-img img {
+        width: 278px;
+        height: 210px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .check .check-card {
         flex-direction: column;
         text-align: center;
     }
-
-    .third .third-head .third-head-text {
-        padding-top: 40px;
-
+    .check .check-card .children-img {
+        padding-top: 20px;
+    }
+    .check .check-card .children-img img {
+        width: 278px;
+        height: 210px;
+    }
+    .check .check-card .check-card-body {
+        padding-bottom: 20px;
+    }
+    .check .check-card .check-card-body h1 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
     }
 
-    .third .third-head .third-head-text h1 {
-        font-size: 24px;
-        width: 335px;
-        height: 48px;
-       
-
+    .check .check-card .check-card-body p {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 10px 0;
     }
 
-    .third .third-head .third-head-text p {
-        width: 307px;
-        height: 40px;
-        font-size: 14px;
-        margin: 8px 0 16px 0;
+    .check .check-card .check-card-body .btn-check {
+        padding-bottom: 0;
     }
 
-    .third .third-head .third-head-text .third-btn button {
-        width: 116px;
-        height: 38px;
-        background: #C3DCE3;
-        border-radius: 100px;
-        margin-bottom: 8px;
+    .check .check-card .check-card-body button {
+        width: 90px;
+        height: 30px;
     }
-
-    .third .third-head .third-head-text .third-btn a {
-        width: 76px;
-        height: 14px;
-        font-size: 14px;
-
+    .check .check-card .check-card-body button a {
+        font-size: 12px;
+        font-weight: 400;
     }
-
-    .third .third-head .third-head-img img {
-
-        width: 335px;
-        height: 260px;
+    footer .bar {
+        padding-top: 20px;
     }
-
-    .fourth .frth-head {
-        flex-direction: column;
-        text-align: center;
+    footer .foot {
+        padding-bottom: 20px;
     }
-
-    .fourth .frth-head .frth-img{
-        padding-top: 40px;
+    footer .foot .copy p{
+        font-size: 12px;
+        font-weight: 400;
     }
-    .fourth .frth-head .frth-img img{
-        width: 335px;
-        height: 230px;
+    footer .foot .icons svg {
+        margin: 10px auto;
     }
-
-    .fourth .frth-head .frth-scnd-part h1 {
-        font-size: 24px;
-        padding-top: 0;
-        margin-top: 20px;
+    footer .dropdown button {
+        width: 90px;
+        font-size: 12px;
     }
-    .fourth .frth-head .frth-scnd-part p {
-        font-size: 14px;
-        margin: 8px 0 16px 0;
-    }
-    .fourth .frth-head .frth-scnd-part .btn-fourth {
-        padding-bottom: 40px;
-    }
-    .fourth .frth-head .frth-scnd-part button {
-        
-width: 114px;
-height: 38px;
-
-    }
-    .fourth .frth-head .frth-scnd-part button a {
-        font-size: 14px;
-        
+    footer .dropdown .dropdown-menu .dropdown-item {
+      font-size: 12px;
     }
 }
