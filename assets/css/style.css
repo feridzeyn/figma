@@ -42,7 +42,9 @@ header .menu hr {
     height: 16.87px;
     border: 1.20466px solid #E0E0E0;
 }
-
+header .menu-ul{
+   margin: 0;
+}
 header .menu-ul li {
     display: inline;
     margin-right: 30px;
