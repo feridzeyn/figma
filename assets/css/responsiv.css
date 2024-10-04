@@ -9,6 +9,7 @@
         max-width: 750px;
         padding: 0 12px;
     }
+
     header nav {
         justify-content: space-around;
         padding: 28px 0;
@@ -73,7 +74,7 @@
     .teaching .teaching-head .btn-platform {
         width: 152px;
         height: 41px;
-    margin: 0 auto 38px auto;
+        margin: 0 auto 38px auto;
     }
 
     .teaching .teaching-head .btn-platform a {
@@ -102,11 +103,11 @@
     .teaching .teaching-head .statistics hr {
         width: 0px;
         height: 32px;
-      margin-top: 18px;
+        margin-top: 18px;
         gap: 0px;
         border: 1px 0px 0px 0px;
         opacity: 0px;
-        
+
     }
 
     .teaching .head .teaching-img {
@@ -118,24 +119,28 @@
         width: 400px;
         height: 400px;
     }
+
     .tips .learn {
         flex-direction: column;
         text-align: center;
         padding: 55px 0 0 0;
     }
+
     .tips .learn .learn-img img {
         width: 430px;
         height: 380px;
         margin-right: 0;
         margin-bottom: 20px;
     }
+
     .tips .learn .learn-head h1 {
         width: 400px;
         height: 70px;
         font-size: 38px;
         font-weight: 600;
-        margin: 0 auto 25px ;
+        margin: 0 auto 25px;
     }
+
     .tips .learn .learn-head p {
         width: 397px;
         height: 50px;
@@ -143,9 +148,11 @@
         line-height: 120%;
         margin: auto;
     }
+
     .increase .increase-head {
         flex-direction: column;
     }
+
     .increase .increase-head .increase-head-text {
         display: flex;
         flex-direction: column;
@@ -154,82 +161,101 @@
         padding-top: 70px;
         margin: auto;
     }
+
     .increase .increase-head .increase-head-text h1 {
         width: 100%;
         height: 75px;
         font-size: 38px;
         font-weight: 600;
     }
+
     .increase .increase-head .increase-head-text p {
         width: 100%;
         font-size: 16px;
         line-height: 120%;
         margin: 0;
     }
+
     .increase .increase-head .increase-head-text .increase-btn button {
         width: 150px;
         height: 40px;
- 
+
     }
+
     .increase .increase-head .increase-head-text .increase-btn a {
         font-size: 15px;
     }
-    .increase .increase-head .increase-head-img{
+
+    .increase .increase-head .increase-head-img {
         margin: auto;
         padding-top: 30px;
     }
-    .increase .increase-head .increase-head-img img{
+
+    .increase .increase-head .increase-head-img img {
         width: 400px;
     }
+
     .check .check-card {
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
+
     .check .check-card .children-img {
         padding: 70px 0 0 0;
         margin: auto;
     }
-    .check .check-card .children-img img{
-       width: 500px;
-       margin-bottom: 25px;
+
+    .check .check-card .children-img img {
+        width: 500px;
+        margin-bottom: 25px;
     }
+
     .check .check-card .check-card-body h1 {
         font-weight: 600;
         font-size: 38px;
         padding-top: 0;
     }
+
     .check .check-card .check-card-body p {
         font-size: 16px;
         line-height: 120%;
         color: #757575;
         margin: 25px 0;
     }
+
     .check .check-card .check-card-body {
         padding-bottom: 70px;
     }
+
     .check .check-card .check-card-body button {
         width: 150px;
         height: 40px;
     }
+
     .check .check-card .check-card-body button a {
         font-size: 15px;
     }
+
     footer .bar {
         padding-top: 30px;
     }
+
     footer nav ul {
-   display: none;
+        display: none;
     }
-    footer nav .dropdown{
+
+    footer nav .dropdown {
         display: block;
     }
+
     footer .foot {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
         padding-bottom: 30px;
     }
+
     footer .foot .icons svg {
         margin: 15px auto;
     }
@@ -240,16 +266,20 @@
         max-width: 400px;
         margin: auto;
     }
+
     header nav {
         padding: 8px 0;
     }
+
     header nav img {
         width: 90px;
         height: 15px;
     }
+
     header .menu .icon {
         margin-right: 65px;
     }
+
     header .user-name .a {
         width: 32px;
         height: 30px;
@@ -257,15 +287,18 @@
         font-size: 12px;
         line-height: 100%;
     }
+
     header .user-name a .alex {
         font-weight: 400;
         font-size: 12px;
         line-height: 100%;
         margin-left: 8px;
     }
+
     header .sign .btn-logout {
         display: none;
     }
+
     header .user-name .btn-icon {
         display: block;
         margin-left: 7px;
@@ -273,6 +306,7 @@
         width: 6.92px;
         height: 3.46px;
     }
+
     header .user-name .a {
         margin-left: 40px;
         font-size: 16px;
@@ -281,36 +315,44 @@
         background: #C3DCE3;
         border-radius: 100px;
     }
+
     header .user-name a .alex {
         margin-left: 4px;
         font-size: 12px;
     }
+
     header .navAnimation {
         top: 50px;
     }
+
     header .navAnimation .animation-ul li {
         padding-top: 10px;
-       margin-bottom: 30px;
+        margin-bottom: 30px;
     }
+
     header .navAnimation .animation-ul li a {
         font-weight: 400;
         font-size: 15px;
         line-height: 100%;
     }
+
     header .navAnimation .animation-ul i {
         font-size: 20px;
         top: 3px;
         right: 3px;
     }
+
     .teaching {
         padding-top: 20px;
     }
+
     .teaching .head .teaching-head h1 {
         width: 100%;
         font-weight: 400;
         font-size: 14px;
         margin: 10px auto;
     }
+
     .teaching .head .teaching-head h2 {
         width: 100%;
         height: 20px;
@@ -318,38 +360,45 @@
         font-weight: 400;
         margin: 10px auto;
     }
+
     .teaching .head .teaching-head p {
         font-size: 12px;
         font-weight: 400;
         width: 100%;
         height: 20px;
         margin: 0 auto 12px;
-       
+
     }
+
     .teaching .teaching-head .btn-platform {
         width: 90px;
         height: 35px;
         margin: auto;
     }
+
     .teaching .teaching-head .btn-platform a {
         font-size: 12px;
         font-weight: 400;
     }
+
     .teaching .teaching-head .statistics {
         flex-direction: column;
         margin-top: 15px;
         align-items: center;
-      
+
     }
+
     .teaching .teaching-head .statistics .img_600 {
         width: 100px;
         margin-bottom: 10px;
     }
+
     .teaching .teaching-head .statistics .img_600 .frame1 {
         width: 79px;
         height: 20px;
-      
+
     }
+
     .teaching .teaching-head .statistics .img_600 p {
         width: 112px;
         height: 22px;
@@ -357,13 +406,14 @@
         text-align: left;
         margin: 0;
     }
-   
+
     .teaching .teaching-head .statistics .miniGames_image .frame2 {
         width: 43px;
         height: 20px;
     }
+
     .teaching .teaching-head .statistics hr {
-      display: none;
+        display: none;
     }
 
     .teaching .head .teaching-img img {
@@ -372,14 +422,17 @@
         margin-top: 15px;
 
     }
-    .tips .learn{
+
+    .tips .learn {
         padding: 20px 0;
     }
+
     .tips .learn .learn-img img {
         width: 278px;
         height: 210px;
         margin: 10 auto;
     }
+
     .tips .learn .learn-head h1 {
         width: 100%;
         height: 40px;
@@ -395,21 +448,26 @@
         margin-bottom: 10px;
         font-size: 12px;
     }
+
     .tips .learn .learn-head .learn-body-img .sprint {
-       width: 80px;
+        width: 80px;
     }
+
     .tips .learn .learn-head .learn-body-img .audio-call {
         width: 100px;
-     }
-     .increase .increase-head .increase-head-text {
+    }
+
+    .increase .increase-head .increase-head-text {
         padding-top: 20px;
     }
+
     .increase .increase-head .increase-head-text h1 {
         font-size: 20px;
         width: 100%;
         height: 20px;
         font-weight: 400;
     }
+
     .increase .increase-head .increase-head-text p {
         width: 100%;
         height: 20px;
@@ -417,6 +475,7 @@
         font-weight: 400;
         margin: 8px 0 8px 0;
     }
+
     .increase .increase-head .increase-head-text .increase-btn button {
         width: 90px;
         height: 35px;
@@ -429,26 +488,32 @@
         font-size: 12px;
         font-weight: 400;
     }
+
     .increase .increase-head .increase-head-img img {
         width: 278px;
         height: 210px;
         margin: auto;
         padding-bottom: 20px;
     }
+
     .check .check-card {
         flex-direction: column;
         text-align: center;
     }
+
     .check .check-card .children-img {
         padding-top: 20px;
     }
+
     .check .check-card .children-img img {
         width: 278px;
         height: 210px;
     }
+
     .check .check-card .check-card-body {
         padding-bottom: 20px;
     }
+
     .check .check-card .check-card-body h1 {
         font-size: 20px;
         font-weight: 400;
@@ -469,28 +534,36 @@
         width: 90px;
         height: 30px;
     }
+
     .check .check-card .check-card-body button a {
         font-size: 12px;
         font-weight: 400;
     }
+
     footer .bar {
         padding-top: 20px;
+        justify-content: space-evenly;
     }
+
     footer .foot {
         padding-bottom: 20px;
     }
-    footer .foot .copy p{
+
+    footer .foot .copy p {
         font-size: 12px;
         font-weight: 400;
     }
+
     footer .foot .icons svg {
         margin: 10px auto;
     }
+
     footer .dropdown button {
         width: 90px;
         font-size: 12px;
     }
+
     footer .dropdown .dropdown-menu .dropdown-item {
-      font-size: 12px;
+        font-size: 12px;
     }
 }
